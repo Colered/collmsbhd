@@ -208,7 +208,7 @@ class BHD extends CI_Controller
 					);
 				} else {
 					$invoiceDetails = array(
-					'CodRespuesta' => '105',
+					'CodRespuesta' => '106',
 					'DescRespuesta' => 'Transaction not validated successfully',
 					'TransaccionesProcesadas'=>'No'
 					);
@@ -219,7 +219,7 @@ class BHD extends CI_Controller
 				}
 			}else{
 					$invoiceDetails = array(
-					'CodRespuesta' => '105',
+					'CodRespuesta' => '106',
 					'DescRespuesta' => 'Transaction not validated successfully',
 					'TransaccionesProcesadas'=>'No'
 					);
