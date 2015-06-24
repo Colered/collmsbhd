@@ -1,0 +1,35 @@
+[25-Jul-2014:14:34:12] (VerificarReferencia) The invoice number - ashga67 does not found in any database Bookstore and Fedena.
+[25-Jul-2014:12:54:39] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:12:55:09] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:12:57:10] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:12:59:10] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:13:01:50] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:13:03:33] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:13:04:00] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:13:04:22] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Jul-2014:13:12:36] (verifyInvoice) The invoice number - dskjfksjdf does not found in any database bookstore and Fedena.
+[25-Aug-2014:06:56:12] (verifyInvoice) The invoice number - dfjjgjgjg does not found in any database bookstore and Fedena.
+[25-Aug-2014:06:56:39] (verifyInvoice) The invoice number - dfjjgjgjg does not found in any database bookstore and Fedena.
+[25-Aug-2014:06:57:54] (verifyInvoice) The invoice number - dfjjgjgjg does not found in any database bookstore and Fedena.
+[17-Apr-2015:09:35:09] (verifyInvoice) The invoice number - 185344 does not found in any database bookstore and Fedena.
+[17-Apr-2015:09:47:33] (verifyInvoice) The invoice number - 185344 does not found in any database bookstore and Fedena.
+[17-Apr-2015:09:47:56] (verifyInvoice) The invoice number - 185344 does not found in any database bookstore and Fedena.
+[17-Apr-2015:13:44:50] (verifyInvoice) The invoice number - 1000000000 does not found in any database bookstore and Fedena.
+[20-Apr-2015:11:35:59] (verifyInvoice) The invoice number - 1000000000 does not found in any database bookstore and Fedena.
+[20-Apr-2015:12:10:59] (applyPayment) Amount is greater than invoice amount
+[20-Apr-2015:12:29:26] (applyPayment) The invoice number - 5664080941l429081567 does not exist in our record.
+[20-Apr-2015:12:31:22] (applyPayment) The invoice number - 5664080941l429081567 does not exist in our record.
+[21-Apr-2015:10:31:40] (reverse) Transaction cancellation process has been failed
+[10-Jun-2015:10:15:24] (VerificarReferencia) An error occurred while trying to authenticate your account with username=test and password=test123
+[10-Jun-2015:10:16:26] (VerificarReferencia) An error occurred while trying to authenticate your account with username=test and password=test@123
+[10-Jun-2015:10:18:38] (VerificarReferencia) An error occurred while trying to authenticate your account with username=test and password=test@123
+[10-Jun-2015:10:18:56] (VerificarReferencia) An error occurred while trying to authenticate your account with username=test and password=test@123
+[10-Jun-2015:10:56:17] (ConciliarPagos) Transaction not validated successfully
+[10-Jun-2015:10:56:41] (VerificarReferencia) The invoice number - 0000000000 does not found in any database Bookstore and Fedena.
+[23-Jun-2015:10:51:20] (VerificarReferencia) The invoice number - 0000 does not found in any database Bookstore and Fedena.
+[23-Jun-2015:10:52:23] (VerificarReferencia) An error occurred while trying to authenticate your account with username=test and password=test123
+[23-Jun-2015:10:57:04] (RegistrarPago) Amount is greater than invoice amount
+[23-Jun-2015:11:10:58] (verifyInvoice) The invoice number - 000000 does not found in any database bookstore and Fedena.
+[23-Jun-2015:11:12:34] (applyPayment) The invoice number - 5664080941l429081567 does not exist in our record.
+[23-Jun-2015:11:13:00] (applyPayment) Amount is greater than invoice amount
+[23-Jun-2015:11:33:03] (reverse) Transaction cancellation process has been failed
