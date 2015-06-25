@@ -221,7 +221,7 @@ class BHD extends CI_Controller
 					);
 				} else {
 					$invoiceDetails = array(
-					'CodRespuesta' => '105',
+					'CodRespuesta' => '106',
 					'DescRespuesta' => 'Transaction not validated successfully',
 					'TransaccionesProcesadas'=>'No'
 					);
@@ -232,7 +232,7 @@ class BHD extends CI_Controller
 				}
 			}else{
 					$invoiceDetails = array(
-					'CodRespuesta' => '105',
+					'CodRespuesta' => '106',
 					'DescRespuesta' => 'Transaction not validated successfully',
 					'TransaccionesProcesadas'=>'No'
 					);
@@ -454,5 +454,21 @@ class BHD extends CI_Controller
 		// More headers
 		$headers .= "From:FROM_NAME <FROM_EMAIL>" . "\r\n";
 		mail($to,$subject,$message,$headers);
+	}
+	/* Converts the array result into xml */
+	function _toxml(SimpleXMLElement $object, array $data)
+	{
+		foreach ($data as $key => $value)
+		{
+			if (is_array($value))
+			{
+				$new_object = $object->addChild($key);
+				_toxml($new_object, $value);
+			}
+			else
+			{
+				$object->addChild($key, $value);
+			}
+		}
 	}
 }
